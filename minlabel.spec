@@ -5,8 +5,6 @@ Version:	1.2
 Release:	6
 License:	GPL
 Group:		Base/Utilities
-Group(de):	Gründsätzlich/Werkzeuge
-Group(pl):	Podstawowe/Narzêdzia
 Source0:	%{name}-%{version}.tar.gz
 ExclusiveArch:	alpha
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
