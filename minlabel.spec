@@ -6,7 +6,7 @@ Copyright: GPL
 ExclusiveArch: alpha
 Group: System Environment/Base
 Source: minlabel-1.2.tar.gz
-BuildRoot: /var/tmp/%{name}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Alpha machine's hard drives are partitioned in one of two ways:  PC style
