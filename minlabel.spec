@@ -1,10 +1,12 @@
-Summary:	Creates, views and edits BSD UNIX style disk labels on Alphas.
+Summary:	Creates, views and edits BSD UNIX style disk labels on Alphas
+Summary(pl):	Program do tworzenia, przegl±dania i edycji disklabeli BSD UNIX na maszynach Alpha
 Name:		minlabel
 Version:	1.2
 Release:	6
 License:	GPL
 ExclusiveArch:	alpha
 Group:		Base/Utilities
+Group(de):	Gründsätzlich/Werkzeuge
 Group(pl):	Podstawowe/Narzêdzia
 Source0:	%{name}-%{version}.tar.gz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -19,13 +21,13 @@ hard drives.
 %setup -q
 
 %build
-%{__make} RPM_OPT_FLAGS="$RPM_OPT_FLAGS"
+%{__make} RPM_OPT_FLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT/sbin
 
-install -m755 -s minlabel $RPM_BUILD_ROOT/sbin
+install -m755 minlabel $RPM_BUILD_ROOT/sbin
 
 %clean
 rm -rf $RPM_BUILD_ROOT
