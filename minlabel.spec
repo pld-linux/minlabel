@@ -6,6 +6,7 @@ Release:	6
 License:	GPL
 Group:		Base/Utilities
 Source0:	%{name}-%{version}.tar.gz
+# Source0-md5:  6e68adf093485f7a058b0c209e5e93c5
 ExclusiveArch:	alpha
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
