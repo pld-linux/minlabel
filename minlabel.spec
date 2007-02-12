@@ -1,5 +1,5 @@
 Summary:	Creates, views and edits BSD UNIX style disk labels on Alphas
-Summary(pl):	Program do tworzenia, przegl±dania i edycji disklabeli BSD UNIX na maszynach Alpha
+Summary(pl.UTF-8):   Program do tworzenia, przeglÄ…dania i edycji disklabeli BSD UNIX na maszynach Alpha
 Name:		minlabel
 Version:	1.2
 Release:	6
@@ -16,10 +16,10 @@ style partitioning or BSD UNIX style labeling. The minlabel program
 allows you to create, view and edit BSD UNIX style labels on Alpha
 hard drives.
 
-%description -l pl
-Dyski twarde w maszynach Alpha s± partycjonowane na dwa sposoby: na
+%description -l pl.UTF-8
+Dyski twarde w maszynach Alpha sÄ… partycjonowane na dwa sposoby: na
 partycje w stylu PC lub labele w stylu BSD UNIX. Program minlabel
-pozwala tworzyæ, ogl±daæ i modyfikowaæ labele w stylu BSD UNIX na
+pozwala tworzyÄ‡, oglÄ…daÄ‡ i modyfikowaÄ‡ labele w stylu BSD UNIX na
 dyskach twardych maszyn Alpha.
 
 %prep
