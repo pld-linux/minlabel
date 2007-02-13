@@ -1,5 +1,5 @@
 Summary:	Creates, views and edits BSD UNIX style disk labels on Alphas
-Summary(pl.UTF-8):   Program do tworzenia, przeglądania i edycji disklabeli BSD UNIX na maszynach Alpha
+Summary(pl.UTF-8):	Program do tworzenia, przeglądania i edycji disklabeli BSD UNIX na maszynach Alpha
 Name:		minlabel
 Version:	1.2
 Release:	6
